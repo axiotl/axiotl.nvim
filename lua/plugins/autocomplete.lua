@@ -1,0 +1,30 @@
+return {
+	--     {
+	--         "hrsh7th/cmp-nvim-lsp",
+	--         dependencies = {
+	--             "hrsh7th/nvim-cmp",
+	--             "hrsh7th/cmp-buffer",
+	--             "hrsh7th/cmp-path",
+	--             "hrsh7th/cmp-cmdline",
+	--             "L3MON4D3/LuaSnip",
+	--             "saadparwaiz1/cmp_luasnip"
+	--         },
+	--         config = function()
+	--             local cmp = require("cmp")
+	--             cmp.setup({
+	--                 mapping = {
+	--                     ["<C-k>"] = cmp.mapping.select_prev_item(),
+	--                     ['<CR>'] = cmp.mapping.confirm { select = true },
+	--                     ["<C-j>"] = cmp.mapping.select_next_item(),
+	--                     ["<C-b>"] = cmp.mapping(cmp.mapping.scroll_docs(-4), { "i", "c" }),
+	--                     ["<C-f>"] = cmp.mapping(cmp.mapping.scroll_docs(4), { "i", "c" }),
+	--                     ["<C-Space>"] = cmp.mapping(cmp.mapping.complete(), { "i", "c" }),
+	--                 },
+	--                 sources = {
+	--                     { name = "nvim_lsp" },
+	--                     { name = "path" },
+	--                 },
+	--             })
+	--         end
+	--     },
+}
