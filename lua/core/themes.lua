@@ -88,9 +88,10 @@ local function tokyonight()
 end
 
 local function github_light()
+  local is_tinker = vim.env.TINKER_SOCKET_URL ~= nil
   require('github-theme').setup {
     options = {
-      transparent = true,
+      transparent = is_tinker,
     },
   }
   vim.cmd.colorscheme 'github_light'
